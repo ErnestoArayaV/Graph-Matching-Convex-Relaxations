@@ -1,5 +1,5 @@
 # Graph Matching via Convex Relaxations to the simplex
-Repository of Matlab code for the paper Graph Matching via Convex Relaxations to the Simplex by Ernesto Araya and Hemant Tyagi
+Repository of Matlab code for the paper **Graph Matching via Convex Relaxations to the Simplex** by Ernesto Araya and Hemant Tyagi.
 
 Contains the following folders:
 
@@ -21,4 +21,6 @@ Contains the following folders:
 
 **Auto sys**:
   - auto_sys_dynamics.m : experiments for the autonomous systems dataset. Generates fig.5
-  - mat_files: contains the data for the autonomous systems dataset. 
+  - mat_files: contains the data for the autonomous systems dataset.
+
+Please refer to our paper for all the citations (algs, datasets, etc).
