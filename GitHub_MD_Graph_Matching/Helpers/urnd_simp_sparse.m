@@ -1,0 +1,9 @@
+function X = urnd_simp_sparse(n,m,nonz)
+unif = rand(nonz-1,1);
+unif = [unif;0;1];
+s_unif = sort(unif,'ascend');
+d_unif = diff(s_unif);
+x = sparse(m*n,1);
+rp = randperm(nonz);
+x(rp) = d_unif;
+X = reshape(x,m,n);
